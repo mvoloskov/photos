@@ -1,0 +1,59 @@
+body {
+	background-color: #000;
+	color: #fff;
+
+	max-width: 60em;
+	padding: 1em;
+	margin: 0 auto;
+}
+
+h1 {
+	font-size: 2em;
+	font-weight: normal;
+}
+
+.lane {
+	display: flex;
+	align-items: baseline;
+	gap: 0.5em;
+}
+
+.indent {
+	padding-left: 1em;
+}
+
+.def {
+	max-width: 24em;
+}
+
+.previews {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1em;
+	margin-top: 4em;
+}
+
+.preview {
+	color: inherit;
+}
+
+.preview h2 {
+	font-weight: 300;
+	margin-top: 0.5em;
+	font-size: 1em;
+}
+
+.back {
+	color: white;
+}
+
+.gallery {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(18em, 1fr));
+	gap: 1em;
+	padding: 3em 0;
+}
+
+.gallery img {
+	width: 100%;
+}
