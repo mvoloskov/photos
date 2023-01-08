@@ -57,3 +57,13 @@ h1 {
 .gallery img {
 	width: 100%;
 }
+
+.pswp__custom-caption {
+	font-size: 0.6em;
+	color: #fff;
+	max-width: 10em;
+	position: absolute;
+	right: 0%;
+	bottom: 0.5em;
+	text-align: right;
+}
